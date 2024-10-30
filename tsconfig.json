@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@assets/*": ["./assets/*"]
+    },
+    "types": [
+      "node",
+      "babel__core",
+      "babel__generator",
+      "babel__template",
+      "babel__traverse",
+      "hammerjs",
+      "json-schema"
+    ]
+  },
+  "extends": "expo/tsconfig.base",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+    "app/(tabs)/profile.jsx",
+    "app/(tabs)/_layout.jsx",
+    "app/_layout.jsx",
+    "app/index.jsx"
+  ]
+}
